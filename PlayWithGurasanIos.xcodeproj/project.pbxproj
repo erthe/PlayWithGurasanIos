@@ -17,6 +17,15 @@
 		A95BA813233F201F0016071A /* PlayWithGurasanIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BA812233F201F0016071A /* PlayWithGurasanIosUITests.swift */; };
 		A95BA8212341EB7E0016071A /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BA8202341EB7E0016071A /* MenuViewModel.swift */; };
 		A95BA8262341F3250016071A /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BA8252341F3250016071A /* MenuModel.swift */; };
+		A9B9F095248E627A00477F6A /* RamenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9F094248E627A00477F6A /* RamenView.swift */; };
+		A9B9F097248E630700477F6A /* RamenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9F096248E630700477F6A /* RamenModel.swift */; };
+		A9B9F099248E63A000477F6A /* RamenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9F098248E63A000477F6A /* RamenViewModel.swift */; };
+		A9B9F09B24A1FBD800477F6A /* StreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9F09A24A1FBD800477F6A /* StreamModel.swift */; };
+		A9B9F09D24A1FCC700477F6A /* StreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9F09C24A1FCC700477F6A /* StreamViewModel.swift */; };
+		A9B9F09F24A1FE6100477F6A /* StreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9F09E24A1FE6100477F6A /* StreamView.swift */; };
+		A9C49C0C248927C500E84E2A /* LogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C49C0B248927C500E84E2A /* LogViewModel.swift */; };
+		A9C49C0E248927DC00E84E2A /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C49C0D248927DC00E84E2A /* LogModel.swift */; };
+		A9C49C102489294600E84E2A /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C49C0F2489294600E84E2A /* LogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,15 @@
 		A95BA814233F201F0016071A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A95BA8202341EB7E0016071A /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		A95BA8252341F3250016071A /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		A9B9F094248E627A00477F6A /* RamenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenView.swift; sourceTree = "<group>"; };
+		A9B9F096248E630700477F6A /* RamenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenModel.swift; sourceTree = "<group>"; };
+		A9B9F098248E63A000477F6A /* RamenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenViewModel.swift; sourceTree = "<group>"; };
+		A9B9F09A24A1FBD800477F6A /* StreamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamModel.swift; sourceTree = "<group>"; };
+		A9B9F09C24A1FCC700477F6A /* StreamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewModel.swift; sourceTree = "<group>"; };
+		A9B9F09E24A1FE6100477F6A /* StreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamView.swift; sourceTree = "<group>"; };
+		A9C49C0B248927C500E84E2A /* LogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewModel.swift; sourceTree = "<group>"; };
+		A9C49C0D248927DC00E84E2A /* LogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogModel.swift; sourceTree = "<group>"; };
+		A9C49C0F2489294600E84E2A /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				A95BA7F4233F201E0016071A /* MenuView.swift */,
+				A9C49C0F2489294600E84E2A /* LogView.swift */,
+				A9B9F094248E627A00477F6A /* RamenView.swift */,
+				A9B9F09E24A1FE6100477F6A /* StreamView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +175,9 @@
 			isa = PBXGroup;
 			children = (
 				A95BA8252341F3250016071A /* MenuModel.swift */,
+				A9C49C0D248927DC00E84E2A /* LogModel.swift */,
+				A9B9F096248E630700477F6A /* RamenModel.swift */,
+				A9B9F09A24A1FBD800477F6A /* StreamModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,6 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				A95BA8202341EB7E0016071A /* MenuViewModel.swift */,
+				A9C49C0B248927C500E84E2A /* LogViewModel.swift */,
+				A9B9F09C24A1FCC700477F6A /* StreamViewModel.swift */,
+				A9B9F098248E63A000477F6A /* RamenViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -297,9 +324,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C49C0E248927DC00E84E2A /* LogModel.swift in Sources */,
+				A9B9F09B24A1FBD800477F6A /* StreamModel.swift in Sources */,
 				A95BA8212341EB7E0016071A /* MenuViewModel.swift in Sources */,
+				A9B9F09D24A1FCC700477F6A /* StreamViewModel.swift in Sources */,
+				A9B9F095248E627A00477F6A /* RamenView.swift in Sources */,
+				A9C49C0C248927C500E84E2A /* LogViewModel.swift in Sources */,
 				A95BA7F1233F201E0016071A /* AppDelegate.swift in Sources */,
+				A9B9F097248E630700477F6A /* RamenModel.swift in Sources */,
+				A9B9F09F24A1FE6100477F6A /* StreamView.swift in Sources */,
 				A95BA7F3233F201E0016071A /* SceneDelegate.swift in Sources */,
+				A9B9F099248E63A000477F6A /* RamenViewModel.swift in Sources */,
+				A9C49C102489294600E84E2A /* LogView.swift in Sources */,
 				A95BA7F5233F201E0016071A /* MenuView.swift in Sources */,
 				A95BA8262341F3250016071A /* MenuModel.swift in Sources */,
 			);

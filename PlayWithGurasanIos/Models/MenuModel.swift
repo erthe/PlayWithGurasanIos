@@ -6,18 +6,14 @@
 //  Copyright © 2019 Erthe. All rights reserved.
 //
 
-import Foundation
-
-struct Menu: Decodable, Identifiable {
-    var id: Int
+struct Menu: Decodable {
     var title: String
     var return_status: Int
     var menu_version: Float
     var menus: [MenuList]
 }
 
-struct MenuList: Decodable, Identifiable {
-    var id:Int
+struct MenuList: Decodable, Hashable {
     var url: String
     var title: String
 }
